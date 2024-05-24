@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My News Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>My News Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">World</a></li>
+                <li><a href="#">Politics</a></li>
+                <li><a href="#">Technology</a></li>
+                <li><a href="#">Sports</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="news-article">
+            <h2>Article Title 1</h2>
+            <p>Author Name | Date</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        </section>
+        <section class="news-article">
+            <h2>Article Title 2</h2>
+            <p>Author Name | Date</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        </section>
+        <!-- Add more articles as needed -->
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 My News Website</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.news-article {
+    margin-bottom: 20px;
+}
+
+.news-article h2 {
+    margin-bottom: 10px;
+}
+
+.news-article p {
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
+KenyaDeepStateNews/
+├── index.html
+├── styles.css
+├── script.js
+└── assets/
+    └── images/
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenya Deep State News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kenya Deep State News</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">World</a></li>
+                    <li><a href="#">Politics</a></li>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Sports</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <main class="container">
+        <section class="news-article">
+            <img src="assets/images/article1.jpg" alt="Article 1">
+            <h2>Article Title 1</h2>
+            <p>By John Doe | May 24, 2024</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        </section>
+        <section class="news-article">
+            <img src="assets/images/article2.jpg" alt="Article 2">
+            <h2>Article Title 2</h2>
+            <p>By Jane Doe | May 24, 2024</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</p>
+        </section>
+        <!-- Add more articles as needed -->
+    </main>
+    
+    <footer>
+        <p>Created by Jonah Mongare | 0716193445</p>
+        <p>&copy; 2024 Kenya Deep State News</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px 0;
+}
+
+.news-article {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.news-article img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news-article h2 {
+    margin: 10px 0;
+}
+
+.news-article p {
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    footer {
+        position: static;
+        margin-top: 20px;
+    }
+}
+
+
+
+// Add any interactive JavaScript features here
+
+
+KenyaDeepStateNewsApp/
+├── App.js
+├── assets/
+│   └── images/
+└── components/
+    ├── Header.js
+    ├── Article.js
+    └── Footer.js
+
+
+import React from 'react';
+import { StyleSheet, ScrollView, View } from 'react-native';
+import Header from './components/Header';
+import Article from './components/Article';
+import Footer from './components/Footer';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Header />
+      <ScrollView style={styles.scrollView}>
+        <Article title="Article Title 1" date="May 24, 2024" author="John Doe" />
+        <Article title="Article Title 2" date="May 24, 2024" author="Jane Doe" />
+        {/* Add more articles as needed */}
+      </ScrollView>
+      <Footer />
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#f4f4f4',
+  },
+  scrollView: {
+    marginHorizontal: 20,
+  },
+});
+
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+
+const Header = () => {
+  return (
+    <View style={styles.header}>
+      <Text style={styles.title}>Kenya Deep State News</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  header: {
+    backgroundColor: '#333',
+    padding: 20,
+  },
+  title: {
+    color: '#fff',
+    textAlign: 'center',
+    fontSize: 20,
+  },
+});
+
+export default Header;
+import React from 'react';
+import { View, Text, StyleSheet, Image } from 'react-native';
+
+const Article = ({ title, date, author }) => {
+  return (
+    <View style={styles.article}>
+      <Image source={require('../assets/images/article1.jpg')} style={styles.image} />
+      <Text style={styles.title}>{title}</Text>
+      <Text style={styles.meta}>By {author} | {date}</Text>
+      <Text style={styles.content}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam.</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  article: {
+    backgroundColor: '#fff',
+    marginBottom: 20,
+    padding: 15,
+    boxShadow: '0 0 10px rgba(0,0,0,0.1)',
+  },
+  image: {
+    width: '100%',
+    height: 200,
+  },
+  title: {
+    fontSize: 18,
+    marginVertical: 10,
+  },
+  meta: {
+    color: '#666',
+  },
+  content: {
+    marginTop: 10,
+  },
+});
+
+export default Article;
+import React from 'react';
+import { View, Text, StyleSheet } from 'react-native';
+
+const Footer = () => {
+  return (
+    <View style={styles.footer}>
+      <Text style={styles.text}>Created by Jonah Mongare | 0716193445</Text>
+      <Text style={styles.text}>&copy; 2024 Kenya Deep State News</Text>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  footer: {
+    backgroundColor: '#333',
+    padding: 20,
+    textAlign: 'center',
+  },
+  text: {
+    color: '#fff',
+    textAlign: 'center',
+  },
+});
+
+export default Footer;
